@@ -195,7 +195,7 @@ return [[
 
  ⇓⇓⇓ 
 
-`git clone https://github.com/moktarbaha/BASHA.git;cd BASHA;chmod +x ins;./ins`
+`git clone https://github.com/BASHAA44/BASHA.git;cd BASHA;chmod +x ins;./ins`
 
 » فقط أضغط على الكود ☝️ ليتم النسخ 
 » ثم الصقه بالترمنال وانتر تتنظر يتنصب 
