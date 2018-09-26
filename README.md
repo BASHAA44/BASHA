@@ -22,7 +22,7 @@
 
 # <p align="center"> كود تنصيب السورس 🖇
 
-<br> git clone https://github.com/BASHAA44/BASHA.git;cd BASHA;chmod +x ins;./ins <br>
+<br> `git clone https://github.com/BASHAA44/BASHA.git;cd BASHA;chmod +x ins;./ins` <br>
 
 
 # <p align="center"> بعد انتهاء عمليه تثبيت السورس 🚸
@@ -37,7 +37,7 @@
  <p align="center"> :: كود تشغيل السورس | لتشغيل السورس يدوي 📛
  
 افتح ترمنال جديد ثم تدخل الكود الاتي <br>
- <br>  ./BASHA/run
+ <br>  `./BASHA/run`
 
 #  💬¦ للمشاكل والاسفسار والاقتراحات :
   
