@@ -62,16 +62,16 @@ memUsed_m=$(($memTotal_m-$memFree_m-$memBuffer_m-$memCache_m))
 memUsedPrc=$((($memUsed_b*100)/$memTotal_b))
 linux_version=`lsb_release -ds 2>/dev/null || cat /etc/*release 2>/dev/null | head -n1 || uname -om`
 
-echo '🔛￤Seystem : `'"$linux_version"'`' 
-echo '🔛￤Memory Total : `'"$memTotal_m MB"'`'
-echo '🔛￤Memory Used : `'"$memUsed_m MB ~ $memUsedPrc% used!"'`'
-echo '🔛￤Disk Total : `'"$disk_total"' For disk.`'
-echo '🔛￤Disk Used : `'"$disk_used"' used!`'
-echo '🔛￤Disk Free : `'"$disk_free"' is free.`'
-echo '🔛￤CPU Usage : `'"$CPUPer"'%`'
-echo '🔛￤Processes : `Core'"$ProcessCnt"'`'
-echo '🔛￤Login : `'"`whoami`"'`'
-echo '🔛￤Uptime : '"$uptime"''
+echo '📟￤Seystem : `'"$linux_version"'`' 
+echo '📟￤Memory Total : `'"$memTotal_m MB"'`'
+echo '📟￤Memory Used : `'"$memUsed_m MB ~ $memUsedPrc% used!"'`'
+echo '📟￤Disk Total : `'"$disk_total"' For disk.`'
+echo '📟￤Disk Used : `'"$disk_used"' used!`'
+echo '📟￤Disk Free : `'"$disk_free"' is free.`'
+echo '📟￤CPU Usage : `'"$CPUPer"'%`'
+echo '📟￤Processes : `Core'"$ProcessCnt"'`'
+echo '📟￤Login : `'"`whoami`"'`'
+echo '📟￤Uptime : '"$uptime"''
 ]]):read('*all')
 end
 
