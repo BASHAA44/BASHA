@@ -418,7 +418,7 @@ local info = redis:hgetall(basha..'username:'..v)
 if info and info.username then message = message ..k.. '- '..info.username..' ➣ (' ..v.. ') \n' else message = message ..k.. '- '..' ➣ (' ..v.. ') \n' end end return message
 end
 function ownerlist(msg)
-mnsha = '*⭐️¦ المنشئيين :*\n\n'
+mnsha = '*⭐️¦ المنشئين :*\n\n'
 local monsha = redis:smembers(basha..':MONSHA_BOT:'..msg.to.id)
 for k,v in pairs(monsha) do
 local info = redis:hgetall(basha..'username:'..v)
